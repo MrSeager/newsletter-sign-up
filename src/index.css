@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cs-h {
+  min-height: 100vh;
+}
+
+/*Background*/
+.cs-bg {
+  background-color: hsl(235, 18%, 26%) !important;
+}
+
+.cs-br {
+  border-radius: 25px;
+}
+
+.cs-w {
+  width: 60% !important;
+}
+
+.cs-w-2 {
+  width: 30% !important;
+}
+
+/*Buttons*/
+.cs-btn {
+  background-color: hsl(234, 29%, 20%) !important;
+  transition: .5s !important;
+}
+
+.cs-btn:hover {
+  background: linear-gradient(to right, #FF537B, hsl(4, 100%, 67%)) !important;
+}
+
+/*Text*/
+.cs-fw-7 {
+  font-weight: 700 !important;
+}
+
+@media (max-width: 921px) {
+  .cs-w, .cs-w-2 {
+    width: 100% !important;
+  }
+
+  .cs-img {
+    content: url('./assets/images/illustration-sign-up-mobile.svg');
+  }
+
+  .cs-br {
+    border-radius: 0;
+  }
+}
